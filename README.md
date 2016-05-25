@@ -2,7 +2,7 @@
 自己搭建学习
 
 ## Install
-```Bash
+```{bash}
 python 2.7+ <3
 django 1.7
 python get-pip.py
@@ -10,7 +10,11 @@ pip install -r requirements.txt
 ```
 
 ## 启动
+```{bash}
 sh runserver.sh 
+```
+## Author
+Rocky
 
 ## Git
 ```
