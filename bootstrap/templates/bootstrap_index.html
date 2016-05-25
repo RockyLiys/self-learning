@@ -1,0 +1,16 @@
+{% extends 'xiangcloud.html' %}
+
+{% load i18n %}
+{% load staticfiles %}
+{% load template_tags %}
+
+
+{% block container_header %}
+    <h1>{% trans '欢迎，Bootstrap' %}</h1>
+    <ul>
+        <li><a href='http://www.bootcss.com/' target='_blank'>{% trans 'Bootstrap中文网' %}</a></li>
+        <li><a href='http://v3.bootcss.com/' target='_blank'>{% trans 'Bootstrap 中文文档' %}</a></li>
+        <li><a href='http://www.runoob.com/bootstrap/bootstrap-tutorial.html' target='_blank'>{% trans 'Bootstrap 教程' %}</a></li>
+        <li><a href='http://www.imooc.com/course/list' target='_blank'>{% trans '欢迎，实战教学课程' %}</a></li>
+    </ul>
+{% endblock %}

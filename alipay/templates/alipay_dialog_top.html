@@ -1,0 +1,45 @@
+{% load i18n %}
+{% load staticfiles %}
+{% load template_tags %}
+
+<link rel="stylesheet" type="text/css" href="{% static "media/css/bootstrap.min.css" %}"/>
+<script type="text/javascript" src="{% static "jquery-1.9.1.min.js" %}"></script>
+<script type="text/javascript" src="{% static "media/js/bootstrap.min.js" %}"></script>
+
+<!-- Small modal {% trans '支付页面' %} -->
+<!-- <button id='id_finish_page' type="button" data-toggle="modal" data-target=".bs-example-modal-sm"></button> -->
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">{% trans '支付页面' %}</h4>
+            </div>
+<!--             <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div> -->
+            <div class="modal-footer">
+                <button id='id_close' type="button" class="btn btn-default" data-dismiss="modal">{% trans '关闭' %}</button>
+                <button id='id_failed_page' type="button" class="btn btn-primary">{% trans '完成未支付' %}</button></button>
+                <button id='id_success_page' type="button" class="btn btn-primary">{% trans '完成支付' %}</button></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type='text/javascript'>
+    $(function(){
+        $('.bs-example-modal-sm').modal('show');
+        $('#id_success_page').on('click', function(){
+            location.href = '{% url "api_alipay:alipay_index" %}'
+        })
+        $('#id_failed_page').on('click', function(){
+            location.href = '{% url "api_bootstrap:bootstrap_index" %}'
+        })
+        $('#id_close').on('click', function(){
+            location.href = '{% url "api_alipay:alipay_index" %}'
+        })
+    })
+</script>
+

@@ -1,0 +1,49 @@
+
+
+<div class="container">
+	<span>Total:{{ urls|length }}</span>
+	<!-- {% my_test "12131" "000000000000000011111" %} -->
+	<table class="table table-hover">
+		<thead >
+			<tr>
+				<td><strong><h3>Index</h3></strong> </td>
+				<td><strong><h3>URI</h3> </strong></td>
+			</tr>
+		</thead>
+		<tbody>
+			{% for index,uri in urls  %}
+			<tr id="tr_{{ index }}" onclick="tr_click($(this),'{{ uri }}')" >
+				<td>{{ index }}</td>
+				<td>{{ uri }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
+<script type="text/javascript">
+	function tr_click(dom,uri) {
+		// body...
+
+		dom.dblclick(function() {
+			// body...
+			dom.remove()
+		});
+		if(typeof(dom.next("tr").attr("name"))=="undefined"){
+			$.ajax({ 
+				type:"get",
+				url: "/process/", 
+				data:{"uri":uri},
+				dataType:"html",
+				success: function(data,textStatus){
+					dom.after(data);
+				},
+				error: function(msg){
+					console.log(msg);
+				},
+			});			
+		}else{
+			dom.next("tr").remove()
+		};
+	}
+</script>
+</body>

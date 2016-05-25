@@ -1,0 +1,30 @@
+{% extends 'xiangcloud.html' %}
+
+{% load i18n %}
+{% load staticfiles %}
+{% load template_tags %}
+
+
+{% block container_header %}
+    <h1>{% trans '欢迎，Alipay' %}</h1>
+    <ul>
+        <li><a href='https://doc.open.alipay.com/doc2/alipayDocIndex.htm' target='_blank'>{% trans '支付宝接口操作' %}</a></li>
+    </ul>
+
+    <form class="form-horizontal" method='post' action="{% url 'api_alipay:transfer_cash' %}">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="account" class="col-sm-1 control-label">{% trans '支付金额' %}:</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="account" name="account" value='0.01' placeholder="0.01">
+                <p class="help-block">{% trans '填入有效数字，最多有两位小数' %}</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-1 col-sm-5">           
+                <button type='submit' class='btn btn-primary'>{% trans '立即购买' %}</button>
+            </div>
+        </div>
+    </form>
+        
+{% endblock %}

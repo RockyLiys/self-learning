@@ -1,0 +1,13 @@
+
+{% load i18n %}
+{% load staticfiles %}
+{% load template_tags %}
+
+<script type="text/javascript" src="{% static "jquery-1.9.1.min.js" %}"></script>
+<script type='text/javascript'>
+    $(function() {
+        // body...
+        window.open('{{ alipay_url }}', '_blank', 'alwaysRaised=yes');
+        location.href='{% url "api_alipay:alipay_index" %}'
+    })
+</script>

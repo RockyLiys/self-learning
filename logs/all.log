@@ -1,0 +1,155 @@
+2015-05-20 03:31:45,247 [Thread-1:139636902983424] [public.app:20] [DEBUG]- ((1, u'admin', u'pbkdf2_sha256$12000$AtLfj7ADnzGP$FMhbIqfLI6F6/AjLSVCBci2jmy/UU/tCkS2IUsyxSis=', u'', u'', u'a@qq.cc', 1, 1), (1, u'aaa', u'pbkdf2_sha256$12000$BA5HPIApsvaV$wq94dUYQuRqeU0Sssv+hfaH7+RV47dtULUO1wJp4IoI=', u'', u'', u'a@qq.cc', 1, 1), (0, u'abc123', u'pbkdf2_sha256$12000$xhn2gkvbmrHv$2oN0DMP1bAjiDI3BhJQI/xJD+vk/RQ8muYQ2iwV0nBk=', u'', u'', u'', 0, 1))
+2015-05-21 02:38:30,491 [Thread-5:139620538947328] [django.request:99] [WARNING]- Forbidden (CSRF cookie not set.): /xiangcloud/api/v2.0/identity/obtainToken/
+2015-05-21 02:39:04,941 [Thread-6:139620538947328] [django.request:99] [WARNING]- Forbidden (CSRF cookie not set.): /xiangcloud/api/v2.0/identity/obtainToken/
+2015-05-21 02:39:42,990 [Thread-7:139620538947328] [django.request:99] [WARNING]- Forbidden (CSRF cookie not set.): /xiangcloud/api/v2.0/identity/obtainToken/
+2015-05-21 02:58:22,183 [Thread-3:140064654882560] [django.request:143] [WARNING]- Not Found: /xiangcloud/api/v2.0/identity/obtainToken
+2015-05-21 02:59:25,305 [Thread-5:140064654882560] [django.request:143] [WARNING]- Not Found: /xiangcloud/api/v2.0/identity/obtainToken
+2015-05-21 03:01:08,201 [Thread-7:140064654882560] [django.request:143] [WARNING]- Not Found: /xiangcloud/api/v2.0/identity/obtainToken
+2015-05-21 03:01:22,233 [Thread-8:140064654882560] [django.request:143] [WARNING]- Not Found: /xiangcloud/api/v2.0/identity/obtainToken
+2015-05-21 03:03:49,895 [Thread-19:140064635479808] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:03:50,421 [Thread-20:140064635479808] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:04:02,732 [Thread-21:140064635479808] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:04:03,620 [Thread-22:140064635479808] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:04:05,883 [Thread-23:140064635479808] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:04:06,507 [Thread-24:140064635479808] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:06:52,770 [Thread-6:139744224831232] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:10:45,300 [Thread-7:139744224831232] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:10:48,615 [Thread-17:139744224831232] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:11:00,330 [Thread-18:139744224831232] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:11:05,923 [Thread-19:139744224831232] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:11:06,613 [Thread-20:139744224831232] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:11:07,633 [Thread-21:139744224831232] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:11:24,432 [Thread-22:139744224831232] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:13:50,249 [Thread-23:139744224831232] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 03:15:14,978 [Thread-34:139744224831232] [django.request:143] [WARNING]- Not Found: /process/
+2015-05-21 08:56:52,422 [Thread-15:140598925690624] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-21 10:03:15,355 [Thread-220:139908709984000] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xiangcloud/api/v2.0/identity/obtainToken/
+2015-05-21 10:06:15,170 [Thread-238:139908733462272] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xiangcloud/api/v2.0/identity/obtainToken/
+2015-05-21 10:08:21,542 [Thread-254:139908733462272] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xcloud-public-api/patterns/
+2015-05-21 10:11:01,301 [Thread-271:139908733462272] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xcloud-public-api/patterns/
+2015-05-21 10:18:59,854 [Thread-20:139929489237760] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xcloud-public-api/patterns/
+2015-05-21 10:21:34,632 [Thread-22:139929489237760] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xcloud-public-api/patterns/
+2015-05-21 10:21:48,832 [Thread-29:139929464059648] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xcloud-public-api/patterns/checkUser.action
+2015-05-21 10:22:35,335 [Thread-31:139929464059648] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xcloud-public-api/patterns/checkUser.action
+2015-05-21 10:22:44,811 [Thread-38:139929464059648] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xcloud-public-api/patterns/checkUser.action
+2015-05-21 10:23:40,229 [Thread-53:139929489237760] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xcloud-public-api/patterns/checkUser.action
+2015-05-21 10:26:46,754 [Thread-70:139929464059648] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xcloud-public-api/patterns/
+2015-05-21 10:30:41,618 [Thread-76:139929480845056] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /xcloud-public-api/patterns/
+2015-05-22 00:49:26,210 [Thread-7:140607284168448] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-22 00:49:26,394 [Thread-8:140607297156864] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-25 05:06:51,402 [Thread-7:140558900864768] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-25 05:06:51,480 [Thread-8:140558900864768] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-26 02:42:56,062 [Thread-15:139968437221120] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-26 02:42:56,146 [Thread-16:139968437221120] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-26 02:43:07,432 [Thread-20:139968445613824] [django.request:99] [WARNING]- Forbidden (CSRF token missing or incorrect.): /api-auth/login/
+2015-05-26 02:44:01,565 [Thread-22:139968437221120] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/patterns
+2015-05-27 01:10:23,121 [Thread-3:140230816429824] [django.request:143] [WARNING]- Not Found: /xiangc
+2015-05-27 01:10:23,537 [Thread-5:140230816429824] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-27 01:10:23,589 [Thread-6:140230816429824] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-27 01:10:49,881 [Thread-7:140230816429824] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/patterns
+2015-05-27 09:03:55,476 [Thread-126:139834513409792] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-28 01:39:03,462 [Thread-7:140024926172928] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-05-29 02:02:49,073 [Thread-7:140428642821888] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-01 01:30:16,258 [Thread-3:140509205456640] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/patterns
+2015-06-01 01:30:17,075 [Thread-8:140509205456640] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-03 02:03:03,355 [Thread-10:140199566329600] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-03 02:03:03,748 [Thread-11:140199566329600] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-04 01:11:38,238 [Thread-10:139739868468992] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-04 01:11:38,354 [Thread-11:139739780871936] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-05 08:33:52,607 [Thread-10:139811601929984] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-05 08:33:52,731 [Thread-11:139811616491264] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-06 08:37:03,913 [Thread-9:140646585779968] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-06 08:37:04,016 [Thread-10:140646600341248] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-10 08:02:38,288 [Thread-14:139707593762560] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-10 08:02:38,370 [Thread-15:139707602155264] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-10 11:29:39,756 [Thread-53:140403052238592] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-10 11:29:39,868 [Thread-54:140403065923328] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-11 03:45:57,594 [Thread-7:140407111415552] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-11 03:45:57,683 [Thread-8:140407098255104] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-11 06:42:33,318 [Thread-35:140387775670016] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-13 02:06:11,361 [Thread-17:140045646247680] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-13 02:06:11,520 [Thread-18:140045611104000] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-15 05:55:43,311 [Thread-3:139839491983104] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/patterns
+2015-06-15 05:55:43,731 [Thread-9:139839466804992] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-15 05:56:01,916 [Thread-10:139839466804992] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/pattern
+2015-06-19 03:51:55,044 [Thread-1:139715785058048] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/patterns
+2015-06-19 03:51:55,961 [Thread-6:139715785058048] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-06-29 02:37:30,718 [Thread-15:140546041149184] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-07-01 08:02:38,128 [Thread-3:140132019312384] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-07-03 03:54:01,944 [Thread-6:140568231405312] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-07-08 07:12:24,855 [Thread-8:140531686569728] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-07-21 01:48:18,682 [Thread-12:139981641217792] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-08-15 03:16:42,642 [Thread-13:139931607037696] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-08-15 03:18:45,483 [Thread-1:139959846348544] [django.request:143] [WARNING]- Not Found: /
+2015-08-15 03:19:04,445 [Thread-3:139959846348544] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/patterns
+2015-08-15 03:19:11,234 [Thread-4:139959846348544] [django.request:143] [WARNING]- Not Found: /xcloud-public-api
+2015-08-17 06:14:16,675 [Thread-1:139676642256640] [django.request:143] [WARNING]- Not Found: /
+2015-08-17 06:14:17,165 [Thread-3:139676642256640] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-08-28 08:02:45,797 [Thread-1:140322326927104] [django.request:143] [WARNING]- Not Found: /
+2015-08-28 08:02:46,468 [Thread-7:140322317485824] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-08-28 08:27:29,562 [Thread-4:140525665167104] [django.request:143] [WARNING]- Not Found: /
+2015-08-28 08:27:29,796 [Thread-5:140525665167104] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-08-28 08:27:29,810 [Thread-6:140525665167104] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-08-28 08:27:44,911 [Thread-7:140525665167104] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/
+2015-08-28 08:27:56,078 [Thread-8:140525665167104] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/patterns
+2015-09-01 08:05:32,537 [Thread-11:139857237886720] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-09-11 12:28:34,921 [Thread-12:140142482900736] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-09-11 12:43:05,332 [Thread-11:139620492740352] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-09-11 12:43:26,462 [Thread-12:139620492740352] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/
+2015-09-23 07:17:29,682 [Thread-8:140377133516544] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-09-28 01:32:45,554 [Thread-3:139732597286656] [django.request:143] [WARNING]- Not Found: /
+2015-09-28 01:32:46,012 [Thread-12:139732588893952] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-09-28 01:33:01,750 [Thread-13:139732588893952] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/
+2015-09-28 01:33:12,228 [Thread-20:139732562667264] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/patterns
+2015-10-08 07:23:43,127 [Thread-1:140697352152832] [django.request:143] [WARNING]- Not Found: /
+2015-10-08 07:23:43,576 [Thread-9:140697326974720] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-10-08 07:57:09,475 [Thread-19:140697343760128] [django.request:143] [WARNING]- Not Found: /v1.0/router_interfaces/8ab9b1dc-7e32-4219-9972-0e1497e18c0e
+2015-10-13 09:26:42,831 [Thread-11:140678332098304] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-10-14 01:01:58,756 [Thread-18:140678097008384] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-10-19 08:36:32,892 [Thread-1:140252089939712] [django.request:143] [WARNING]- Not Found: /
+2015-10-19 08:36:33,326 [Thread-10:140252064761600] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-11-06 02:47:21,308 [Thread-18:139871130330880] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-11-10 12:51:20,111 [Thread-9:139800943863552] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-11-25 02:59:42,379 [Thread-11:140184215086848] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-11-26 11:34:53,549 [Thread-10:140488631899904] [django.request:143] [WARNING]- Not Found: /
+2015-11-26 11:34:54,331 [Thread-11:140488640292608] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-11-30 01:57:06,175 [Thread-1:140254466987776] [django.request:143] [WARNING]- Not Found: /
+2015-11-30 01:57:06,879 [Thread-3:140254458595072] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2015-12-01 15:00:35,968 [Thread-18:140018727241472] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-01-06 01:38:40,078 [Thread-1:140264545961728] [django.request:143] [WARNING]- Not Found: /
+2016-01-06 01:38:40,557 [Thread-10:140264545961728] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-01-19 12:11:16,055 [Thread-1:140466518210304] [django.request:143] [WARNING]- Not Found: /
+2016-01-19 12:11:16,481 [Thread-10:140466435651328] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-02-17 03:22:50,776 [Thread-1:139977089271552] [django.request:143] [WARNING]- Not Found: /
+2016-02-17 03:22:51,358 [Thread-10:139976977135360] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-02-17 03:25:22,854 [Thread-13:139976977135360] [django.request:143] [WARNING]- Not Found: /
+2016-02-17 03:26:41,400 [Thread-14:139976977135360] [django.request:143] [WARNING]- Not Found: /admin
+2016-02-17 03:27:59,295 [Thread-25:139976985528064] [django.request:143] [WARNING]- Not Found: /
+2016-02-17 03:30:25,800 [Thread-1:140269804267264] [django.request:143] [WARNING]- Not Found: /xiangcloud/api/
+2016-02-17 03:30:43,997 [Thread-4:140269804267264] [django.request:143] [WARNING]- Not Found: /
+2016-02-17 03:46:54,657 [Thread-5:140269804267264] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/
+2016-02-17 03:47:09,508 [Thread-6:140269804267264] [django.request:143] [WARNING]- Not Found: /xcloud-public-api/db
+2016-02-17 03:54:03,174 [Thread-1:140007916668672] [django.request:143] [WARNING]- Not Found: /
+2016-02-17 08:37:49,586 [Thread-1:140485794711296] [django.request:143] [WARNING]- Not Found: /
+2016-02-17 08:38:06,821 [Thread-1:139994089813760] [django.request:143] [WARNING]- Not Found: /
+2016-02-22 03:28:13,026 [Thread-4:140029376595712] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-03-03 01:31:03,779 [Thread-17:139873931228928] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-03-08 02:59:38,669 [Thread-4:140508231464704] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-03-09 02:41:13,339 [Thread-18:140703371347712] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-03-14 09:32:46,177 [Thread-4:140571902871296] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-03-15 03:48:24,618 [Thread-3:139687665063680] [django.request:143] [WARNING]- Not Found: /alipay
+2016-03-15 03:49:49,431 [Thread-3:139707521767168] [django.request:143] [WARNING]- Not Found: /urlpatterns/
+2016-03-17 02:34:52,135 [Thread-2356:139842625189632] [django.request:143] [WARNING]- Not Found: /info.html
+2016-03-17 03:58:29,341 [Thread-17:140198646105856] [django.request:93] [WARNING]- Method Not Allowed (POST): /alipay
+2016-03-17 03:59:03,204 [Thread-17:140214223755008] [django.request:93] [WARNING]- Method Not Allowed (POST): /alipay
+2016-03-17 03:59:24,978 [Thread-18:140214223755008] [django.request:93] [WARNING]- Method Not Allowed (POST): /alipay
+2016-03-17 04:03:11,995 [Thread-4:140012148635392] [django.request:143] [WARNING]- Not Found: /alipay/transfer_cash
+2016-03-17 04:04:01,362 [Thread-1:140426033436416] [django.request:143] [WARNING]- Not Found: /alipay/transfer_cash
+2016-03-17 04:05:52,273 [Thread-1:140239216056064] [django.request:143] [WARNING]- Not Found: /alipay/transfer_cash
+2016-03-17 04:06:05,711 [Thread-10:140239216056064] [django.request:143] [WARNING]- Not Found: /alipay
+2016-03-17 04:10:56,578 [Thread-1:139660150572800] [django.request:143] [WARNING]- Not Found: /alipaytransfer_cash
+2016-03-22 01:42:31,121 [Thread-5:140024898930432] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-03-24 01:15:02,937 [Thread-3:139838122866432] [django.request:143] [WARNING]- Not Found: /alipay/
+2016-03-24 02:06:16,364 [Thread-4:140350048614144] [django.request:143] [WARNING]- Not Found: /alipay/<script type='text/javascript'>window.open('https://mapi.alipay.com/gateway.do
+2016-03-24 03:27:17,062 [Thread-1:140019329828608] [django.request:143] [WARNING]- Not Found: /alipay/notify_url
+2016-04-13 09:30:15,976 [Thread-3:140441504823040] [django.request:143] [WARNING]- Not Found: /favicon.ico

@@ -1,0 +1,14 @@
+{% extends 'xiangcloud.html' %}
+
+{% load i18n %}
+{% load staticfiles %}
+{% load template_tags %}
+
+
+{% block container_header %}
+    <h1>{% trans '欢迎，Nodejs' %}</h1>
+    <ul>
+        <li><a href='http://nodejs.cn/' target='_blank'>{% trans 'Node.js 中文网' %}</a></li>
+        <li><a href='http://www.imooc.com/course/list' target='_blank'>{% trans '欢迎，实战教学课程' %}</a></li>
+    </ul>
+{% endblock %}

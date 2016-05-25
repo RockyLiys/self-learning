@@ -1,0 +1,16 @@
+{% extends 'xiangcloud.html' %}
+
+{% load i18n %}
+{% load staticfiles %}
+{% load template_tags %}
+
+
+
+
+{% block container_header %}
+	<h1>{% trans '欢迎，Css' %}</h1>
+	<ul>
+		<li><a href='http://css.doyoe.com/' target='_blank'>{% trans 'CSS帮助手册' %}</a></li>
+		<li><a href='http://www.imooc.com/course/list' target='_blank'>{% trans '欢迎，实战教学课程' %}</a></li>
+	</ul>
+{% endblock %}

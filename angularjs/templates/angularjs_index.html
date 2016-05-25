@@ -1,0 +1,15 @@
+{% extends 'xiangcloud.html' %}
+
+{% load i18n %}
+{% load staticfiles %}
+{% load template_tags %}
+
+
+
+{% block container_header %}
+    <h1>{% trans '欢迎，Angularjs' %}</h1>
+    <ul>
+        <li><a href='http://www.apjs.net' target='_blank'>{% trans 'AngularJS中文网' %}</a></li>
+        <li><a href='http://www.imooc.com/course/list' target='_blank'>{% trans '欢迎，实战教学课程' %}</a></li>
+    </ul>
+{% endblock %}

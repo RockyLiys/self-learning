@@ -1,0 +1,139 @@
+{% extends 'xiangcloud.html' %}
+
+{% load i18n %}
+{% load staticfiles %}
+{% load template_tags %}
+
+{% block title %}{% trans 'openstack api handlers' %}{% endblock %}
+
+{% block container_header %}
+
+    <div class="row">
+        <div class="col-xs-4 col-md-4 left">
+            <div class="nav-header" data-toggle="collapse" data-target="#compute-menu" aria-expanded="false">
+                <span class="glyphicon glyphicon-th-list" ></span>
+                Compute
+                <span class="badge">{{ urls.compute|length }}</span>
+            </div>
+            <div data-spy="scroll" data-target="#compute-menu" data-offset='0' class='scroll'>
+                <ul id="compute-menu" class="nav nav-list collapse" > <!--style="height: 100px;width: 97%;" -->
+                    {% for index,uri in urls.compute  %}
+                    <li onclick="left_click('{{ uri }}')"><a href="#"><b class="span-index" style="margin-left: -7px;" >{{ forloop.counter }}</b>{{ uri }}</a></li>
+                    {% endfor %}
+                </ul> 
+            </div>  
+                <!-- compute end -->
+
+            <div class="nav-header" data-toggle="collapse" data-target="#network-menu" style="height 0px;">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                Network
+                <span class="badge">{{ urls.network|length }}</span>
+            </div>
+            <div class="scroll">
+                <ul id="network-menu" class="nav nav-list collapse" >
+                    {% for index,uri in urls.network  %}
+                    <li onclick="left_click('{{ uri }}')"><a href="#"><b class="span-index" style="margin-left: -7px;" >{{ forloop.counter }}</b>{{ uri }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+                <!-- network end -->
+
+            <div class="nav-header" data-toggle="collapse" data-target="#identity-menu">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                Identity
+                <span class="badge">{{ urls.identity|length }}</span>
+            </div>
+            <div class="scroll">
+                <ul id="identity-menu" class="nav nav-list collapse" >
+                    {% for index,uri in urls.identity  %}
+                    <li onclick="left_click('{{ uri }}')"><a href="#"><b class="span-index" style="margin-left: -7px;" >{{ forloop.counter }}</b>{{ uri }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+                <!-- identity end -->
+
+            <div class="nav-header" data-toggle="collapse" data-target="#images-menu">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                Images
+                <span class="badge">{{ urls.images|length }}</span>
+            </div>
+            <div class="scroll">
+                <ul id="images-menu" class="nav nav-list collapse" >
+                    {% for index,uri in urls.images  %}
+                    <li onclick="left_click('{{ uri }}')"><a href="#"><b class="span-index" style="margin-left: -7px;" >{{ forloop.counter }}</b>{{ uri }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+                <!-- images end -->
+
+            <div class="nav-header" data-toggle="collapse" data-target="#metering-menu">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                Metering
+                <span class="badge">{{ urls.metering|length }}</span>
+            </div>
+            <div class="scroll">
+                <ul id="metering-menu" class="nav nav-list collapse" >
+                    {% for index,uri in urls.metering  %}
+                    <li onclick="left_click('{{ uri }}')"><a href="#"><b class="span-index" style="margin-left: -7px;" >{{ forloop.counter }}</b>{{ uri }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+                <!-- metering end -->
+
+            <div class="nav-header" data-toggle="collapse" data-target="#volume-menu">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                Volume
+                <span class="badge">{{ urls.volume|length }}</span>
+            </div>
+            <div class="scroll">
+                <ul id="volume-menu" class="nav nav-list collapse" >
+                    {% for index,uri in urls.volume  %}
+                    <li onclick="left_click('{{ uri }}')"><a href="#"><b class="span-index" style="margin-left: -7px;" >{{ forloop.counter }}</b>{{ uri }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+                <!-- volume end -->
+        </div>
+        <div class="col-xs-8 col-md-8 bg">
+            <div class="container-fluid">
+                <div class="row-fluid form-wrapper">
+                    <h3 class="header">Handle:</h3>
+                     <div class="right_form"><!--{% include "right.html" %}--></div> 
+                    
+                </div>
+                <div class="row-fluid form-wrapper">
+                    <h3 class="header">Display：</h3>
+                    <form class="form-horizontal">
+                        <iframe src="" name="name_display" class="form-control" rows="3" style="height: 284px;"></iframe>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %} <!-- end container_parttens-->
+
+{% block home_script %}
+    <script type="text/javascript"> 
+        function left_click(uri) {
+            // body...
+            dom = $(".right_form")
+            $.ajax({ 
+                type:"get",
+                url: "/process/", 
+                data:{"uri":uri},
+                dataType:"html",
+                success: function(data,textStatus){
+                    dom.append(data);
+                },
+                error: function(msg){
+                    console.log(msg);
+                },
+            }); 
+        }
+    </script>
+{% endblock %} <!-- end home_script-->
+
+
+
+

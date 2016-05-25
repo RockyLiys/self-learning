@@ -1,0 +1,16 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Fri, 06 Nov 2015 03:09:51 GMT
+Content-Type: text/html
+Content-Length: 154
+Connection: keep-alive
+Keep-Alive: timeout=20
+Location: http://dl5.csdn.net/fd.php?i=911091092518825&s=9433b5fd992108151d94269be7f2c2df
+
+<html>
+<head><title>302 Found</title></head>
+<body bgcolor="white">
+<center><h1>302 Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
