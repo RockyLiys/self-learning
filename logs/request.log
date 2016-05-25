@@ -152,3 +152,4 @@
 2016-03-24 02:06:16,364 [Thread-4:140350048614144] [django.request:143] [WARNING]- Not Found: /alipay/<script type='text/javascript'>window.open('https://mapi.alipay.com/gateway.do
 2016-03-24 03:27:17,062 [Thread-1:140019329828608] [django.request:143] [WARNING]- Not Found: /alipay/notify_url
 2016-04-13 09:30:15,976 [Thread-3:140441504823040] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2016-05-25 07:37:41,268 [Thread-17:140463902078720] [django.request:143] [WARNING]- Not Found: /favicon.ico
